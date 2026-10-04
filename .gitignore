@@ -1,0 +1,22 @@
+# Виртуальное окружение (создаётся по requirements.txt)
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Финальная модель (~13 МБ): пересоздаётся ноутбуком 05,
+# ноутбукам 06 и 07 нужна не она, а сохранённые предсказания в data/processed
+models/*.joblib
+
+# IDE и системные файлы
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
